@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="shortcut icon" href="Pictures/gohlogo1.png">
+  <title>About Us</title>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+  .navbar {
+      margin-bottom: 0;
+      background-color: #8f422e;
+      z-index: 9999;
+      border: 0;
+
+      font-size: 12px !important;
+      line-height: 1.42857143 !important;
+      letter-spacing: 4px;
+      border-radius: 0;
+      font-family: Montserrat, sans-serif;
+  }
+  .navbar li a, .navbar .navbar-brand {
+      color: #fff !important;
+      font-family: Montserrat, sans-serif;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+      color: #8f422e !important;
+      background-color: #ddcea7 !important;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+      color: #fff !important;
+  }
+  .jumbotron { 
+    background-color: #ddcea7;
+    color: #8f422e;
+      padding: 30px 15px;
+      font-family: sans-serif;
+      margin-top: 10px;
+  }
+   .container-fluid {
+    float: left;
+    color: #ddcea7;
+    text-align: justify;
+    background-color:#8f422e;
+      padding: 60px 50px;
+  }
+  button a{
+    color:black;
+    font-family:verdana;
+    text-align: center;
+  }
+  .btn-default
+{ 
+  margin-top: 15px;
+  border-radius: 3rem;
+}
+  .container-fluid h4
+  {
+    text-align:justify;
+    font-size: 18px;
+  }
+  /*ul li
+  {
+    text-align:justify;
+    font-size: 18px;
+    font-family: monospace;
+  }*/
+    @media screen and (max-width: 768px) {
+    .col-sm-12 {
+      text-align: justify;
+      margin: 25px 0;
+    }
+    .img-fluid
+      {
+        padding-top: 8px;
+        width:50px;
+        height: 40px;
+      }
+
+      .navbar-brand
+      {
+        
+        font-size: 12px;
+      }
+    .container-fluid {
+    float: left;
+    color: #ddcea7;
+    text-align: left;
+    background-color:#8f422e;
+      padding: 30px 15px;
+  }
+  .container-fluid h4
+  {
+    text-align: center;
+  }
+  
+    /* ul li
+  {
+    text-align:left;
+    font-size: 18px;
+    font-family: monospace;
+  }*/
+  
+    .btn-lg {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+  }
+   </style>
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+<nav class="navbar navbar-default navbar-absolute-top">
+  <div class="container">
+    <div class="navbar-header">
+    	<img src="Pictures/gohlogo1.png" class="img-fluid" style="max-width: 80px;max-height: 50px;float: left; padding-right: 10px;">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#myPage">ABOUT US</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li style="font-size: 12px;"><a href="Dashboard.php">DASHBOARD</a></li>
+        <li style="font-size: 12px;"><a href="Leaderboard.php">LEADERBOARD</a></li>
+        <li style="font-size: 12px;"><a href="Rules.html">RULES</a></li>
+        <li style="font-size: 12px;"><a href="https://www.facebook.com/ImpetusJSS" target="blank;">FORUM</a></li>
+        <li><form action="logout.php" method="POST"><button name="logout" class="btn-default" style="border: none;background-color:white;color:black; padding-top:0px">LOGOUT</button></form></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<br>
+<div class="jumbotron text-center">
+<h1 style="font-family: Andalo mono">IMPETUS STUDENT SOCIETY</h1>
+<h4><b>Bridging The Gap</b></h4>
+</div>
+<div id="about" class="container-fluid">
+  <div class="row">
+    <div class="col-sm-12">
+      <h2 style="font-family: monospace; text-align: center;"><u>OUR STORY</u></h2>
+      <h4 style="font-family: monospace;">Impetus Student Society is a student body in JSS Academy of Technical Education, Noida, which uniquely aims at launching a movemnet to turn good students into better professionals, so as to provide the corporate world with quality professionals and hence making a student's induction into the industry much easier.
+      <br><br>
+      Alike its motto is its aim: "Bridging the Gap" between the avenues in the industry and an individual. Impetus lays inititaive to introduce today's academician to tomorrows executive.</h4>
+      <br><button class="btn btn-default btn-lg"><a href="http://www.teamimpetus.com" target="blank">GET IN TOUCH</a></button>
+    </div>
+    </div>
+    </div>
+</body>
+</html>
